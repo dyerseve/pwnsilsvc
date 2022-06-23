@@ -115,7 +115,6 @@ ECHO File Check >> pwnlog.txt 2>&1
 if exist C:\windows\system32\sbscrexe.exe (
     ECHO sbscrexe.exe (sbs 2003) still exists
     ECHO sbscrexe.exe (sbs 2003) still exists >> pwnlog.txt 2>&1
-    GOTO START
 ) else (
     ECHO sbscrexe.exe (sbs 2003) pwned!
     ECHO sbscrexe.exe (sbs 2003) pwned! >> pwnlog.txt 2>&1
@@ -123,7 +122,6 @@ if exist C:\windows\system32\sbscrexe.exe (
 if exist C:\windows\system32\silnotify.exe (
     ECHO silnotify.exe still exists
     ECHO silnotify.exe still exists >> pwnlog.txt 2>&1
-    GOTO START
 ) else (
     ECHO silnotify.exe pwned!
     ECHO silnotify.exe pwned! >> pwnlog.txt 2>&1
@@ -131,7 +129,6 @@ if exist C:\windows\system32\silnotify.exe (
 if exist C:\windows\system32\silsvc.exe (
     ECHO silsvc.exe still exists
     ECHO silsvc.exe still exists >> pwnlog.txt 2>&1
-    GOTO START
 ) else (
     ECHO silsvc.exe pwned!
     ECHO silsvc.exe pwned! >> pwnlog.txt 2>&1
